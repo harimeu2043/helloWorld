@@ -9,7 +9,8 @@ class Store:
         item={'name':name,'price':price}
         self.items.append(item)
         
-        
+    def hello(self):
+        print ("hello world this is my")    
         # Create a dictionary with keys name and price, and append that to self.items.
 
     def stock_price(self):
